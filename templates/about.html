@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About OCD</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/images/ChatGPT Image Jul 3, 2025, 11_46_26 PM.png" rel="icon">
+</head>
+<body>
+<style>
+  body {
+      background-size: cover;
+      background-position: right center;
+      background-repeat: no-repeat;
+  }
+  .container {
+      background-color: rgba(232, 240, 243, 0.88);
+      padding: 40px;
+      border-radius: 10px;
+  }
+  nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+      }
+        
+  nav a {
+            color: #020202ff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 20px;
+        }
+  nav a:hover {
+      background-color: rgba(14, 42, 83, 0.788);
+      color: white;
+  }
+</style>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+  <a href="/" class="navbar-brand p-0">
+      <h1 class="m-0 text-primary">
+        <img src="static/images/3533409_creativity_idea_imagination_innovation_innovative_icon.png" height="60" width="60" style="background-color:#b2b2c2" class="rounded-circle">
+        OCDCare
+      </h1>
+  </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="/" class="nav-item nav-link active">Home</a>
+                <a href="/about" class="nav-item nav-link">About </a>
+                <a href="/quiz" class="nav-item nav-link">Quiz</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="https://iocdf.org" class="dropdown-item">Articles</a>
+                        <a href="team.html" class="dropdown-item"></a>
+                        <a href="appointment.html" class="dropdown-item">How to Use Tool</a>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+            <a href="/form" class="btn btn-primary py-2 px-4 ms-3">Start Assessment</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+<!-- About OCD Section -->
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-7">
+        <h1 class="display-5 mb-3">What is OCD?</h1>
+        <p class="lead">Obsessive-compulsive disorder (OCD) is a mental illness characterized by intrusive thoughts (obsessions) and repetitive behaviors (compulsions).</p>
+        <p>Examples of obsessions include fear of contamination, disturbing thoughts, or worry about safety. Compulsions may involve excessive handwashing, checking, or arranging things repeatedly to reduce anxiety.</p>
+        <p>While many people may have mild obsessive habits, OCD becomes a disorder when these behaviors interfere with daily life and cause distress.</p>
+      </div>
+      <div class="col-lg-5">
+        <img src="static/images/Thinking image 2.avif" class="img-fluid rounded shadow" alt="OCD Awareness">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Common Symptoms -->
+<div class="container py-5">
+  <h2 class="mb-4 text-center">Common Symptoms of OCD</h2>
+  <div class="row g-4">
+        <div class="col-md-6">
+      <img src="{{ url_for('static', filename='images/Are-Intrusive-Thoughts-a-Sign-of-OCD.webp') }}" class="img-fluid rounded" width="440px"  alt="OCD Symptom">
+      <h5 class="mt-2">Disturbing intrusive thoughts</h5>
+      <p>Individuals with OCD often experience unwanted, intrusive thoughts that are distressing and difficult to control. These thoughts may be violent, sexual, or blasphemous in nature, causing significant shame and anxiety. 
+        The individual may try to suppress or neutralize these thoughts through compulsive behaviors.</p>
+    </div>
+    <div class="col-md-6">
+      <img src="{{ url_for('static', filename='images/mysophobia-fear-germs.jpg') }}" class="img-fluid rounded" width="460px" alt="OCD Symptom">
+      <h5 class="mt-2">Fear of germs or contamination</h5>
+      <p>Individuals with this type of OCD have an intense fear of becoming contaminated by germs, dirt, or other perceived contaminants.
+         They may obsessively clean, wash their hands, or avoid touching certain objects to prevent the spread of contamination.
+        This can lead to disruptions in daily life and significant distress.</p>
+    </div>
+    <div class="col-md-6">
+      <img src="{{ url_for('static', filename='images/symmetry-ocd.webp') }}" class="img-fluid rounded" alt="OCD Symptom">
+      <h5 class="mt-2">Need for symmetry, order, or perfection</h5>
+      <p>People with this symptom feel compelled to repeatedly check things like locks, appliances,
+         or light switches to ensure they are properly secured. This is driven by the fear that something bad will happen if they don't check these items over and over.
+         Checking behaviors can become extremely time-consuming and interfere with normal activities.</p>
+    </div>
+    <div class="col-md-6">
+      <img src="{{ url_for('static', filename='images/conting.jpeg') }}" class="img-fluid rounded" width="440px" height="390px" alt="OCD Symptom">
+      <h5 class="mt-2">Compulsions like counting, touching, or repeating actions</h5>
+      <p>OCD can manifest in the form of repetitive behaviors or mental rituals that the individual feels they 
+        must perform. This may include counting, tapping, touching objects in a specific order, or repeating actions a certain number of times. These compulsions are aimed at reducing anxiety or preventing a perceived negative outcome, but they provide only temporary relief.</p>
+  </div>
+</div>
+</div>
+
+<!-- YouTube Video Section -->
+<div class="container text-center my-5">
+  <h2 class="mb-4">Learn More About OCD</h2>
+  <div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/DhlRgwdDc-E" 
+            title="YouTube video about OCD" 
+            frameborder="0" 
+            allowfullscreen></iframe>
+  </div>
+</div>
+
+
+<!-- OCD Statistics -->
+<div class="container-fluid bg-light py-5">
+  <div class="container text-center">
+    <h2 class="display-6 mb-3">OCD Facts & Statistics</h2>
+    <p class="text-muted">Shedding light on OCD globally and in Nigeria</p>
+    <div class="row g-4">
+      <div class="col-md-3"><h1 class="text-primary">2.3%</h1><p>of global population has OCD</p></div>
+      <div class="col-md-3"><h1 class="text-primary">50%</h1><p>develop OCD before age 19</p></div>
+      <div class="col-md-3"><h1 class="text-primary">70%</h1><p>don’t get proper treatment</p></div>
+      <div class="col-md-3"><h1 class="text-primary">60%</h1><p>Nigerians unaware of OCD symptoms</p></div>
+    </div>
+  </div>
+</div>
+
+ <!-- Footer Start -->
+ <div
+ class="container-fluid text-white mt-5 pt-5"
+ style="background-color: #054b98"
+>
+ <div class="row px-xl-5 pt-5">
+   <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+     <a href="" class="text-decoration-none">
+       <h1 class="mb-4 display-5 font-weight-semi-bold">
+         <img src="static/images/3533409_creativity_idea_imagination_innovation_innovative_icon.png"style="height:60px"> 
+       </h1>
+     </a>
+     <p>
+       A home of excellence for nice and wonderfull <br>
+       environment for both traders and seller <br>
+       magna ipsum dolore amet  erta
+     </p>
+     <p class="mb-2">
+       <i class="fa fa-map-marker-alt text-white mr-3"></i>123 Street,
+       New York, USA
+     </p>
+     <p class="mb-2">
+       <i class="fa fa-envelope text-white mr-3"></i>info@example.com
+     </p>
+     <p class="mb-0">
+       <i class="fa fa-phone-alt text-white mr-3"></i>+012 345 67890
+     </p>
+   </div>
+   <div class="col-lg-8 col-md-12">
+     <div class="row">
+       <div class="col-md-4 mb-5">
+         <h5 class="font-weight-bold text-white mb-4">Quick Links</h5>
+         <div class="d-flex flex-column justify-content-start">
+           <a class="text-white mb-2" href="index.html"
+             ><i class="fa fa-angle-right mr-2"></i>Home</a
+           >
+           <a class="text-white mb-2" href="shop.html"
+             ><i class="fa fa-angle-right mr-2"></i>About the Tool</a
+           >
+           <a class="text-white mb-2" href="detail.html"
+             ><i class="fa fa-angle-right mr-2"></i>FAQs</a
+           >
+           <a class="text-white mb-2" href="cart.html"
+             ><i class="fa fa-angle-right mr-2"></i>Resources</a
+           >
+           <a class="text-white mb-2" href="checkout.html"
+             ><i class="fa fa-angle-right mr-2"></i>Articles</a
+           >
+           <a class="text-white" href="contact.html"
+             ><i class="fa fa-angle-right mr-2"></i>Symptoms</a
+           >
+         </div>
+       </div>
+       <div class="col-md-4 mb-5">
+         <h5 class="font-weight-bold text-white mb-4">Quick Links</h5>
+         <div class="d-flex flex-column justify-content-start">
+           <a class="text-white mb-2" href="index.html"
+             ><i class="fa fa-angle-right mr-2"></i>Home</a
+           >
+           <a class="text-white mb-2" href="shop.html"
+             ><i class="fa fa-angle-right mr-2"></i>About the Tool</a
+           >
+           <a class="text-white mb-2" href="detail.html"
+             ><i class="fa fa-angle-right mr-2"></i>FAQs</a
+           >
+           <a class="text-white mb-2" href="cart.html"
+             ><i class="fa fa-angle-right mr-2"></i>Resources</a
+           >
+           <a class="text-white mb-2" href="checkout.html"
+             ><i class="fa fa-angle-right mr-2"></i>Articles</a
+           >
+           <a class="text-white" href="contact.html"
+             ><i class="fa fa-angle-right mr-2"></i>Symptoms</a
+           >
+         </div>
+       </div>
+ </div>
+ <div class="row border-top border-light mx-xl-5 py-4">
+   <div class="col-md-6 px-xl-0">
+     <p class="mb-md-0 text-center text-md-left text-white">
+       &copy;
+       <a class="text-white font-weight-semi-bold" href="#"
+         >OCDCare</a
+       >. All Rights Reserved. Designed by
+       <a
+         class="text-white font-weight-semi-bold"
+         href="https://htmlcodex.com"
+         >GREAT</a
+       ><br />
+       Distributed By
+       <a class="text-white" href="" target="_blank">JATTOSKY</a>
+     </p>
+   </div>
+   <div class="col-md-6 px-xl-0 text-center text-md-right">
+     <img class="img-fluid" src="img/image 41.png" alt="" />
+     <img class="img-fluid" src="img/image 42.png" alt="" />
+     <img class="img-fluid" src="img/image 43.png" alt="" />
+     <img class="img-fluid" src="img/image 41.png" alt="" />
+     <img class="img-fluid" src="img/image 42.png" alt="" />
+   </div>
+ </div>
+</div>
+<!-- Footer End -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
